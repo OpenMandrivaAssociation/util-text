@@ -3,7 +3,7 @@
 
 Name:           util-text
 Version:        0.3.5
-Release:        %mkrel 0.0.2
+Release:        %mkrel 0.0.3
 Epoch:          0
 Summary:        org.freecompany.util
 License:        MIT
@@ -16,7 +16,7 @@ Source1:        util-text-0.3.5-build.xml
 Requires:       util-multicaster
 BuildRequires:  ant
 BuildRequires:  ant-junit
-BuildRequires:  jpackage-utils >= 0:1.6
+BuildRequires:  java-rpmbuild >= 0:1.6
 BuildRequires:  junit
 BuildRequires:  util-multicaster
 %if %{gcj_support}
